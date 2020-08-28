@@ -6,7 +6,7 @@ var id = document.URL.split("/")[5];
 if (md == '') {
   var redir = 'https://fopub.com/'+key+'&dl_target_url=https://fopub.com/'+id+'';
 } else {
-  var redir = 'https://fopub.com/'key+;
+  var redir = 'https://fopub.com/'+key;
 }
 
 window.location = redir;
